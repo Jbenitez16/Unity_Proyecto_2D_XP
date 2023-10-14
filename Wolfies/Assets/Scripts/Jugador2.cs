@@ -15,6 +15,7 @@ public class Jugador2 : MonoBehaviour
     private void Update()
     {
         //siempre debe estar en el update para que la responsividad no tenga lag
+        SensorPiso(); 
         LeerAxis();
         Update_Movimiento();
     }
@@ -71,11 +72,15 @@ public class Jugador2 : MonoBehaviour
         //si se presiona la tecla Space
         if(Input.GetKeyDown(KeyCode.UpArrow))
         {
-            //Vector.up = new Vector3(0,1)           
-            Vector2 fuerza = Vector2.up * fuerzaSalto;
+            if (enPiso)
+            {
+                //Vector.up = new Vector3(0,1)           
+                Vector2 fuerza = Vector2.up * fuerzaSalto;
 
-            rb.AddForce(fuerza, ForceMode2D.Impulse);
-        }    
+                rb.AddForce(fuerza, ForceMode2D.Impulse);
+                Saltando = true;
+            }
+        }
     }
 
 
@@ -106,5 +111,32 @@ public class Jugador2 : MonoBehaviour
         }
     }
 
+    [SerializeField] private Vector2 sensorPiso_tamaño;
+    private bool enPiso = false;
+    private bool Saltando = false;
+
+    private void SensorPiso()
+    {
+
+        Vector2 centro = transform.position;
+        Vector2 tamaño = sensorPiso_tamaño;
+        LayerMask capa = LayerMask.GetMask("Default");
+        var box = Physics2D.OverlapBoxAll(centro, tamaño, 0, capa);
+
+        if (box.Length > 0)
+        {
+            enPiso = true;
+        }
+        else
+        {
+            enPiso = false;
+        }
+    }
+    
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = enPiso ? Color.yellow : Color.black;
+        Gizmos.DrawWireCube(transform.position, sensorPiso_tamaño);
+    }
 
 }
