@@ -1051,7 +1051,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324514721}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.981, y: -0.278, z: 0.021675222}
+  m_LocalPosition: {x: 8.94, y: -0.148, z: 0.021675222}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 3
   fuerzaSalto: 5
-  "sensorPiso_tama\xF1o": {x: 2.3, y: 0.2}
+  "sensorPiso_tama\xF1o": {x: 3, y: 0.6}
 --- !u!50 &324514724
 Rigidbody2D:
   serializedVersion: 4
@@ -1100,7 +1100,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &324514725
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1133,7 +1133,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0046926737, y: 0.5166266}
+  m_Offset: {x: -0.0046926737, y: 0.36602235}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1144,7 +1144,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.4547036, y: 1.1768327}
+  m_Size: {x: 2.4547036, y: 1.2815557}
   m_EdgeRadius: 0
 --- !u!1 &466980932
 GameObject:
@@ -1509,7 +1509,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989392913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.574, z: 0}
+  m_LocalPosition: {x: 0, y: 0.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1615,7 +1615,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114642068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.568, z: 0}
+  m_LocalPosition: {x: 0, y: 0.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1706,7 +1706,7 @@ GameObject:
   - component: {fileID: 1140570828}
   - component: {fileID: 1140570830}
   - component: {fileID: 1140570829}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Wolfie_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1802,7 +1802,7 @@ GameObject:
   - component: {fileID: 1280755591}
   - component: {fileID: 1280755593}
   - component: {fileID: 1280755592}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Wolfie_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1941,7 +1941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1630748246}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Players
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1994,7 +1994,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946969603}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.347784, y: -0.031, z: 0.021675222}
+  m_LocalPosition: {x: -2.347784, y: -0.181, z: 0.021675222}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2016,7 +2016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 2
   fuerzaSalto: 6
-  "sensorPiso_tama\xF1o": {x: 2.5, y: 0.2}
+  "sensorPiso_tama\xF1o": {x: 3, y: 0.6}
 --- !u!50 &1946969606
 Rigidbody2D:
   serializedVersion: 4
@@ -2043,7 +2043,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1946969607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2076,7 +2076,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0071964264, y: 0.53233457}
+  m_Offset: {x: -0.0071964264, y: 0.36701775}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2087,7 +2087,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.4536781, y: 1.1908059}
+  m_Size: {x: 2.4536781, y: 1.2734642}
   m_EdgeRadius: 0
 --- !u!1 &1984631633
 GameObject:
@@ -2100,7 +2100,7 @@ GameObject:
   - component: {fileID: 1984631634}
   - component: {fileID: 1984631636}
   - component: {fileID: 1984631635}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2206,7 +2206,7 @@ GameObject:
   - component: {fileID: 1988785742}
   - component: {fileID: 1988785744}
   - component: {fileID: 1988785743}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
