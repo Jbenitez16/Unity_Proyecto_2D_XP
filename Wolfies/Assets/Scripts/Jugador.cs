@@ -46,7 +46,7 @@ public class Jugador : MonoBehaviour
 
 
     //SerializedField sirve para mostrar el atrivuto en el editor, sin volverlo public
-    [SerializeField] private float velocidad;
+    public float velocidad;
     [SerializeField] private float fuerzaSalto = 5;
 
     private float axisX;
@@ -118,7 +118,6 @@ public class Jugador : MonoBehaviour
 
     private void SensorPiso()
     {
-
         Vector2 centro = transform.position;
         Vector2 tamaño = sensorPiso_tamaño;
         LayerMask capa = LayerMask.GetMask("Default");
