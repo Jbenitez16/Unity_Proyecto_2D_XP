@@ -101,13 +101,13 @@ public class Jugador2 : MonoBehaviour
             //le sumamos el movimiento a la posicion actual      
             transform.position += mov;
 
-            animator.SetBool("Moviendose", true);
+            //animator.SetBool("Moviendose", true);
         }
 
         //no hay movimiento
         else
         {
-            animator.SetBool("Moviendose", false);
+            //animator.SetBool("Moviendose", false);
         }
     }
 
