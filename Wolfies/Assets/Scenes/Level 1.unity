@@ -1719,9 +1719,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba97870928543144fbad759d414a2dbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 3
-  fuerzaSalto: 0.1
-  "sensorPiso_tama\xF1o": {x: 3, y: 0.6}
+  velocidad: 5
+  fuerzaSalto: 0.24
+  "sensorPiso_tama\xF1o": {x: 2, y: 0.6}
 --- !u!50 &324514724
 Rigidbody2D:
   serializedVersion: 4
@@ -2119,6 +2119,7 @@ Transform:
   - {fileID: 1069150743}
   - {fileID: 227810669}
   - {fileID: 2183321564653848613}
+  - {fileID: 1438417728}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3073,13 +3074,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438417724}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.29, y: 6.74, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.9177847, y: 15.2717495, z: 0.035823096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 466980933}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1438417729
 MonoBehaviour:
@@ -3179,7 +3180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 5
   fuerzaSalto: 12
-  "sensorPiso_tama\xF1o": {x: 3, y: 0.6}
+  "sensorPiso_tama\xF1o": {x: 2, y: 0.6}
 --- !u!50 &1946969606
 Rigidbody2D:
   serializedVersion: 4
